@@ -1,0 +1,137 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{\footnotesize\textsl{Page \thepage\ of \pageref{LastPage}}}
+\renewcommand\headrulewidth{0pt}
+\renewcommand\footrulewidth{0pt}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{listings}
+\lstset{frame=single,
+  language=Python,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{harvard}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+%\numberwithin{equation}{section}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\newcommand\boldline{\arrayrulewidth{1pt}\hline}
+
+
+\begin{document}
+
+\begin{flushleft}
+  \textbf{\large{Problem Set \#1}} \\
+  MACS 30000, Dr. Evans \\
+  Haihao Guo
+\end{flushleft}
+
+\vspace{5mm}
+
+\noindent\textbf{Problem 1}
+Classify a model from a journal.\\
+
+\textbf{Part (a).} I choose the production function model in the paper "Acquisitions, productivity, and profitability: evidence from the Japanese cotton spinning industry" in American Economic Review.\\
+
+\textbf{Part (b).} Braguinsky, S., Ohyama, A., Okazaki, T., \& Syverson, C. (2015). Acquisitions, productivity, and profitability: evidence from the Japanese cotton spinning industry. American Economic Review, 105(7), 2086-2119.\\
+
+\textbf{Part (c).} \\
+$$
+y_{i t}=\beta_{k} k_{i t}+\beta_{l} l_{i t}+\beta_{i} i_{i t}+\beta_{a} a_{i t}+\omega_{i t}+\varepsilon_{i t}
+$$
+\\
+This model is the production function for plant i at time t. In this model, for plant i at time t, "y is logged output, k and l are respectively logged capital and labor flows, i is the change in logged plant capacity, and a is the logged age of plant capital. The term $\omega_{it}$ captures productivity and subsumes the constant, and $\varepsilon_{it}$ is a standard independent and identically distributed error." (Braguinsky et al, 2015, p. 2096)
+\\
+
+\textbf{Part (d).} 
+In this model, the exogenous variables are the logged capital $k_{it}$, labor flows$l_{it}$, the change in logged plant capacity $i_{it}$, the logged age of plant capital $a_{it}$, and the constant representing the productivity $\omega_{it}$.
+\\
+\\
+In this model, the endogenous variables are the logged output $y_{it}$, the coefficients $\beta_{k}$, $\beta_{l}$, $\beta_{i}$, $\beta_{a}$, and the error term $\varepsilon_{it}$.
+\\
+
+\textbf{Part (e).} 
+This model is static, linear, and deterministic.
+\\
+
+\textbf{Part (f).} 
+The model predicts the production output, and one thing that would matters in this case is the patent numbers and the age of the patent. New technology would increase the productivity of the company, thus increase the overall production output. 
+Therefore, one possible improvement for this model is to add the term $\beta_{p} p_{i t}$, where $p_{i t}$ is the patent the company i holds in time t.
+\\
+\newpage
+
+\noindent\textbf{Problem 2}
+This is a model of whether a person choose to get married or not.\\
+
+\textbf{Part (a) (b) (c).} I would use a simple Probit model to model the marriage decision.
+
+$$
+y_{i}=\left\{\begin{array}{ll}{1 \text { if } x_{i}^{\prime} \beta+\varepsilon_{i}>0,} & {i=1, \ldots, n} \\ {0 \text { otherwise }}\end{array}\right.
+$$
+$$
+P_{i} = {\operatorname{Pr}\left(y_{i}=1 | x_{i}\right)=\Phi\left(x_{i}^{\prime} \beta\right)} 
+$$
+$$
+\mathbf{M}_{i} = \left\{\begin{array}{ll}{1 \text { if } P_{i}>0.5,} & {i=1, \ldots, n} \\ {0 \text { otherwise }}\end{array}\right.
+$$
+In this model, for the individual i, $\mathbf{M}_{i}$ is the binary output where 1 means the individual decide to get married and 0 means the individual wants to be single. $x_{i}^{\prime}$ is a vector of the variables including age, income, education, race, pregnant status sexual identity, and sexual orientation of the individual, with $\beta$ representing the coefficients of those variables. $\epsilon_{i}$ is the error term used to capture the uncertainty.
+\\
+
+\textbf{Part (d).} 
+There are several key factors that I think would influence the outcome. The most important factor in my model is the the sexual identity and sexual orientation of the individual, which could have a huge influence on the marriage decision. For instance, the homosexual people would be hard to get married if the homosexual marriage is not legal in their country. Another important factor is the pregnant status, if the couple has a baby, there is a high chance that they would get married. Other than this, factors like age, income, education, race, sexual orientation would have a significant impact too.
+\\
+
+\textbf{Part (e).} 
+I decide those factors based on both the literature and my observation. Firstly, from the literature we could know that the personal information like age, income, education, race would have a impact on the marriage decision . Secondly, from my observation, if a couple has a baby, there is a high probability that they would get married out of responsibility and social moral. Also, we could notice that the story of marriage is totally different for the LGBT community, until today many of them are still fighting for their rights to get married. Therefore, the sexual identity and sexual orientation would have a significant impact on the marriage decision.
+\\
+
+\textbf{Part (f).} 
+I would do a online survey to collect the data to do a preliminary test. The dataset would contain about 1000 individuals' information about their marriage status, annual income, sex, race, sexual orientation, sexual identity, whether or not the marriage of sexual orientation of the individual is legal, and the pair marriage status. After we get the data, we would do some exploratory data analysis, draw some scatter plots to see if there are some interesting result. Finally, we would run the model in Stata to get the p-value and the significance value.
+\\
+
+\end{document}
