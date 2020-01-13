@@ -100,22 +100,24 @@ This model is static, linear, and deterministic.
 \\
 
 \textbf{Part (f).} 
-The model predicts the production output, and one thing that would matters in this case is the patent numbers and the age of the patent. New technology would increase the productivity of the company, thus increase the overall production output. 
+The model predicts the production output, and one thing that would matter in this case is the patent numbers and the age of the patent. The new technology would increase the productivity of the company, thus increasing the overall production output. 
 Therefore, one possible improvement for this model is to add the term $\beta_{p} p_{i t}$, where $p_{i t}$ is the patent the company i holds in time t.
 \\
 \newpage
 
 \noindent\textbf{Problem 2}
-This is a model of whether a person choose to get married or not.\\
+This is a model of whether a person chooses to get married or not.\\
 
 \textbf{Part (a) (b) (c).} I would use a simple Probit model to model the marriage decision.
 
 $$
 y_{i}=\left\{\begin{array}{ll}{1 \text { if } x_{i}^{\prime} \beta+\varepsilon_{i}>0,} & {i=1, \ldots, n} \\ {0 \text { otherwise }}\end{array}\right.
 $$
+\
 $$
 P_{i} = {\operatorname{Pr}\left(y_{i}=1 | x_{i}\right)=\Phi\left(x_{i}^{\prime} \beta\right)} 
 $$
+\
 $$
 \mathbf{M}_{i} = \left\{\begin{array}{ll}{1 \text { if } P_{i}>0.5,} & {i=1, \ldots, n} \\ {0 \text { otherwise }}\end{array}\right.
 $$
@@ -123,15 +125,20 @@ In this model, for the individual i, $\mathbf{M}_{i}$ is the binary output where
 \\
 
 \textbf{Part (d).} 
-There are several key factors that I think would influence the outcome. The most important factor in my model is the the sexual identity and sexual orientation of the individual, which could have a huge influence on the marriage decision. For instance, the homosexual people would be hard to get married if the homosexual marriage is not legal in their country. Another important factor is the pregnant status, if the couple has a baby, there is a high chance that they would get married. Other than this, factors like age, income, education, race, sexual orientation would have a significant impact too.
+There are several key factors that I think would influence the outcome. The most important factor in my model is the sexual identity and sexual orientation of the individual, which could have a huge influence on the marriage decision. For instance, homosexual people would be hard to get married if homosexual marriage is not legal in their country. Another important factor is the pregnant status, if the couple has a baby, there is a high chance that they would get married. Other than this, factors like age, income, education, race, sexual orientation would have a significant impact too.
 \\
 
 \textbf{Part (e).} 
-I decide those factors based on both the literature and my observation. Firstly, from the literature we could know that the personal information like age, income, education, race would have a impact on the marriage decision . Secondly, from my observation, if a couple has a baby, there is a high probability that they would get married out of responsibility and social moral. Also, we could notice that the story of marriage is totally different for the LGBT community, until today many of them are still fighting for their rights to get married. Therefore, the sexual identity and sexual orientation would have a significant impact on the marriage decision.
+I decide those factors based on both the literature and my observation. Firstly, from the literature, we could know that personal information like age, income, education, the race would have an impact on the marriage decision. Secondly, from my observation, if a couple has a baby, there is a high probability that they would get married out of responsibility and social morals. Also, we could notice that the story of a marriage is different for the LGBT community until today many of them are still fighting for their rights to get married. Therefore, sexual identity and sexual orientation would have a significant impact on the marriage decision.
 \\
 
 \textbf{Part (f).} 
-I would do a online survey to collect the data to do a preliminary test. The dataset would contain about 1000 individuals' information about their marriage status, annual income, sex, race, sexual orientation, sexual identity, whether or not the marriage of sexual orientation of the individual is legal, and the pair marriage status. After we get the data, we would do some exploratory data analysis, draw some scatter plots to see if there are some interesting result. Finally, we would run the model in Stata to get the p-value and the significance value.
+I would do an online survey to collect the data to do a preliminary test. The dataset would contain about 1000 individuals' information about their marital status, annual income, sex, race, sexual orientation, sexual identity, whether or not the marriage of sexual orientation of the individual is legal, and the pair marriage status. After we get the data, we would do some exploratory data analysis, draw some scatter plots to see if there are some interesting results. Finally, we would run the model in Stata to get the p-value and the significance value.
 \\
+
+\newpage
+\noindent\textbf{Reference}\\
+\textbf\\
+Braguinsky, S., Ohyama, A., Okazaki, T., \& Syverson, C. (2015). Acquisitions, productivity, and profitability: evidence from the Japanese cotton spinning industry. American Economic Review, 105(7), 2086-2119.
 
 \end{document}
