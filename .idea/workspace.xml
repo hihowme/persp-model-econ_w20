@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3351c03e-4600-48de-a3aa-23d7e915db9c" name="Default Changelist" comment="" />
+    <list default="true" id="3351c03e-4600-48de-a3aa-23d7e915db9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Midterm/Midterm20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Midterm/Midterm20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSets/PS2/PS2_part1_haihao.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSets/PS2/PS2_part1_haihao.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSets/PS4/PS4_Haihao.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSets/PS4/PS4_Haihao.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,23 +17,24 @@
     <session id="-1438287009">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="3" />
+          <entry key="ipynb" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="3" />
+          <entry key="IPNB" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -84,6 +90,23 @@
             <path>
               <item name="persp-model-econ_w20" type="b2602c69:ProjectViewProjectNode" />
               <item name="persp-model-econ_w20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="persp-model-econ_w20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="persp-model-econ_w20" type="462c0819:PsiDirectoryNode" />
+              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="persp-model-econ_w20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="persp-model-econ_w20" type="462c0819:PsiDirectoryNode" />
+              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="GMM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="persp-model-econ_w20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="persp-model-econ_w20" type="462c0819:PsiDirectoryNode" />
+              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="MLE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="persp-model-econ_w20" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581018102061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update ps5">
+      <created>1581527964798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581527964798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -233,6 +263,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="update ps5" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Notebooks/GMM/GMMest.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notebooks/MLE/MLest.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemSets/PS3/PS3_haihao.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
