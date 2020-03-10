@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d77ad4-66b1-4391-ab9e-aad1e096d737" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="f5d77ad4-66b1-4391-ab9e-aad1e096d737" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1438287009">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -43,6 +60,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -93,19 +115,19 @@
       <option name="project" value="LOCAL" />
       <updated>1583883807150</updated>
     </task>
-    <task id="LOCAL-00002" summary="last update ps3">
-      <created>1580141138886</created>
+    <task id="LOCAL-00002" summary="idk">
+      <created>1583884208282</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1580141138886</updated>
+      <updated>1583884208282</updated>
     </task>
-    <task id="LOCAL-00003" summary="ps4 update">
-      <created>1580485763951</created>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'upstream/master'">
+      <created>1583884237772</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1580485763951</updated>
+      <updated>1583884237772</updated>
     </task>
     <task id="LOCAL-00004" summary="ps4 update">
       <created>1580747380274</created>
@@ -170,7 +192,7 @@
       <option name="project" value="LOCAL" />
       <updated>1583638055582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -194,6 +216,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idk" />
+    <MESSAGE value="Merge remote-tracking branch 'upstream/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'upstream/master'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Notebooks/GMM/GMMest.ipynb">
